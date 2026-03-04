@@ -1,0 +1,21 @@
+{
+  "name": "@swarmrails/mcp-bittensor",
+  "version": "1.0.0",
+  "description": "MCP server for Swarmrails Bittensor x402 gateway",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "swarmrails-mcp-bittensor": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["mcp", "bittensor", "x402", "ai", "swarmrails"],
+  "author": "Swarmrails",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "axios": "^1.7.0"
+  }
+}
+
